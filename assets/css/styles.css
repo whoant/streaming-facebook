@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.comment {
+    width: 455px;
+    height: 910px;
+    background-color: #c4c4c4;
+    border-radius: 40px;
+    display: flex;
+    padding: 10px 0;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 1420px;
+    height: 910px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.video {
+    height: 730px;
+    width: 100%;
+    background-color: #c4c4c4;
+    border-radius: 40px;
+}
+
+.reaction {
+    height: 150px;
+    width: 100%;
+    background-color: #c4c4c4;
+    border-radius: 40px;
+}
+
+.user-cmt {
+    width: 430px;
+    height: 100px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+}
+
+.user-avt {
+    height: 70px;
+    width: 70px;
+    margin: 0 10px;
+    border-radius: 50%;
+    /* background-image: url(https://scontent-xsp1-2.xx.fbcdn.net/v/t1.6435-9/151308606_2762598737325020_6360374489104255369_n.jpg?_nc_cat=104&ccb=1-3&_nc_sid=09cbfe&_nc_ohc=HDF4mLYe_MUAX_bDgxW&_nc_ht=scontent-xsp1-2.xx&oh=aafe08b4bdfc4cec1a5cf246d02a5391&oe=61211409); */
+    background-position: center;
+    background-size: contain;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 320px;
+}
+
+.user-name {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.user-content {
+    font-size: 16px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.reaction {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.reaction-show {
+    width: 250px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reaction-img {
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-position: center;
+    background-size: contain;
+    margin-right: 15px;
+}
+
+.reaction-like {
+    background-image: url(../img/LIKE.gif);
+}
+
+.reaction-haha {
+    background-image: url(../img/HAHA.gif);
+}
+
+.reaction-love {
+    background-image: url(../img/LOVE.gif);
+}
+
+.reaction-sad {
+    background-image: url(../img/SAD.gif);
+}
+
+.reaction-wow {
+    background-image: url(../img/WOW.gif);
+}
+
+.reaction-angry {
+    background-image: url(../img/ANGRY.gif);
+}
+
+.reaction-count {
+    font-size: 30px;
+}
